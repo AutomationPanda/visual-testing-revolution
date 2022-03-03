@@ -81,8 +81,7 @@ public class VisualTest {
             eyes.open(
                     driver,
                     "Applitools Demo App",
-                    "A visual login test",
-                    new RectangleSize(800, 600));
+                    "A visual login test");
 
             // Run the test steps, but with visual checks
             loadLoginPage();
