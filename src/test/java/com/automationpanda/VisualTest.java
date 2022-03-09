@@ -1,7 +1,6 @@
 package com.automationpanda;
 
 import com.applitools.eyes.BatchInfo;
-import com.applitools.eyes.RectangleSize;
 import com.applitools.eyes.TestResultsSummary;
 import com.applitools.eyes.selenium.BrowserType;
 import com.applitools.eyes.selenium.Configuration;
