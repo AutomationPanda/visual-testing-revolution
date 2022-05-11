@@ -15,8 +15,6 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-import java.util.concurrent.TimeUnit;
-
 public class VisualTest {
 
     private static boolean headless;
@@ -65,7 +63,6 @@ public class VisualTest {
 
         // Initialize Selenium WebDriver
         driver = new ChromeDriver(new ChromeOptions().setHeadless(headless));
-        driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 
         // Initialize Eyes
         eyes = new Eyes(runner);
